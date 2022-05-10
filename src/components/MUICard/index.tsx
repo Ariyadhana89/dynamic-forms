@@ -36,7 +36,7 @@ const MUICard = (props: IProps) => {
             }}
           >
             <CardHeader
-              avatar={<Avatar aria-label="person">R</Avatar>}
+              avatar={<Avatar aria-label="person">{el.title[0].toUpperCase()}</Avatar>}
               action={
                 <IconButton onClick={() => onClose()} aria-label="close">
                   {<CloseIcon />}
